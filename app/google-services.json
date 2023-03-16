@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "627129990528",
+    "firebase_url": "https://autoparts-fyp.firebaseio.com",
+    "project_id": "autoparts-fyp",
+    "storage_bucket": "autoparts-fyp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:627129990528:android:43d69679de5da8707c5565",
+        "android_client_info": {
+          "package_name": "com.auto.autoparts_fyp_final"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "627129990528-3vahpho4ghe7m1idks1n35ullttvp4rf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.auto.autoparts_fyp_final",
+            "certificate_hash": "0c04f7326460f04c5742b4822efcfff66c01e48d"
+          }
+        },
+        {
+          "client_id": "627129990528-r7v7k498nrp9khk47udhn2ujdsdjvggn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAT2QoHSSMOKhwYYBJ5kxOY8rEzpqHZPYk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "627129990528-r7v7k498nrp9khk47udhn2ujdsdjvggn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

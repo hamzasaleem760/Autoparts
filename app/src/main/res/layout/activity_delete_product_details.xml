@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DeleteProductDetailsActivity">
+
+    <ImageView
+        android:id="@+id/product_image_details_delete"
+        android:layout_width="match_parent"
+        android:layout_height="260dp"
+        android:scaleType="centerCrop"
+        />
+
+    <TextView
+        android:id="@+id/product_name_details_delete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/product_image_details_delete"
+        android:text="Product Name"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:layout_marginTop="15dp"
+        />
+
+    <TextView
+        android:id="@+id/product_description_details_delete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/product_name_details_delete"
+        android:text="Product Description"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:layout_marginTop="15dp"
+        />
+
+
+    <TextView
+        android:id="@+id/product_price_details_delete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/product_description_details_delete"
+        android:text="Product Price"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:layout_marginTop="15dp"
+        />
+    <TextView
+        android:id="@+id/product_quantity_details_delete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/product_price_details_delete"
+        android:text="Product Quantity"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:layout_marginTop="15dp"
+        />
+    <TextView
+        android:id="@+id/product_make_details_delete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/product_quantity_details_delete"
+        android:text="Make"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:layout_marginTop="15dp"
+        />
+    <TextView
+        android:id="@+id/product_model_details_delete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/product_make_details_delete"
+        android:text="Model"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:layout_marginTop="15dp"
+        />
+    <TextView
+        android:id="@+id/product_category_details_delete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/product_model_details_delete"
+        android:text="Category"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:layout_marginTop="15dp"
+        />
+
+    <Button
+        android:id="@+id/delete_product_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/product_category_details_delete"
+        android:text="Delete Product"
+        android:layout_marginTop="2dp"
+        android:textAlignment="center"
+        android:textSize="18dp"
+        android:padding="12dp"
+        android:layout_margin="15dp"
+        android:background="@drawable/buttons"
+        android:textColor="@android:color/white"
+        />
+
+</RelativeLayout>

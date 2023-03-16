@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UpdateVendorProfileActivity">
+
+
+
+
+
+
+
+    <EditText
+        android:id="@+id/shop_name_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Shop Name..."
+        android:layout_margin="15dp"
+        android:padding="10dp"
+        />
+
+    <EditText
+        android:id="@+id/shop_address_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/shop_name_edit"
+        android:hint="Shop Address..."
+        android:layout_margin="15dp"
+        android:padding="10dp"
+        />
+
+       <EditText
+        android:id="@+id/vendor_name_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/shop_address_edit"
+        android:hint="Vendor Name..."
+        android:layout_margin="15dp"
+        android:padding="10dp"
+        />
+
+    <!--<EditText-->
+        <!--android:id="@+id/vendor_password_edit"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_below="@+id/vendor_name_edit"-->
+        <!--android:hint="Password..."-->
+        <!--android:layout_margin="15dp"-->
+        <!--android:padding="10dp"-->
+        <!--/>-->
+
+    <EditText
+        android:id="@+id/vendor_phone_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/vendor_name_edit"
+        android:hint="Phone..."
+        android:layout_margin="15dp"
+        android:padding="10dp"
+        />
+
+    <Button
+        android:id="@+id/apply_changes_btn_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/vendor_phone_edit"
+        android:text="Apply Changes"
+        android:layout_marginTop="2dp"
+        android:textAlignment="center"
+        android:textSize="18dp"
+        android:padding="12dp"
+        android:layout_margin="15dp"
+        android:background="@drawable/buttons"
+        android:textColor="@android:color/white"
+        />
+
+
+
+</RelativeLayout>

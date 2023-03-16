@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/nav_home"
+        android:title="Home" />
+
+
+    <item android:title="Shop By">
+        <menu>
+            <item
+                android:title="Categories"
+                android:id="@+id/nav_categories"
+                android:icon="@drawable/category"
+                 />
+            <item
+                android:id="@+id/nav_vendors"
+                android:icon="@drawable/nav_vendors"
+                android:title="Vendors" />
+            <item
+                android:id="@+id/nav_vehicle"
+                android:icon="@drawable/nav_vehicle"
+                android:title="Vehicle" />
+        </menu>
+    </item>
+
+
+    <item android:title="About Autoparts">
+        <menu>
+
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/nav_about"
+            android:title="About"
+
+            />
+
+        <item
+            android:id="@+id/nav_contact_us"
+            android:icon="@drawable/ic_call_black_24dp"
+            android:title="Contact Us"
+            />
+        </menu>
+
+    </item>
+
+    <item android:title="">
+        <menu>
+
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_input_black_24dp"
+                android:title="Logout"
+
+                />
+
+        </menu>
+
+    </item>
+
+
+
+
+
+</menu>
